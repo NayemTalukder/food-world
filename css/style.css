@@ -1,0 +1,402 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+li {
+
+    list-style: none;
+    display: inline-block
+}
+
+a {
+
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+}
+
+a:hover,
+a:active {
+
+    text-decoration: none;
+}
+
+h1,
+h2,
+h4 {
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.btn {
+    position: relative;
+    background-position: center center;
+    width: 30%;
+    padding-right: 15px;
+    padding-left: 15px;
+    transition: all 400ms ease-in-out;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+
+    background-color: #000000 !important;
+    color: #3c3c3c !important;
+    border: 1px solid btn !important;
+}
+
+/*navigation*/
+
+.navbar{
+    background: #e7e7e7 !important;
+    text-transform: uppercase;
+    font-weight: 500%;
+}
+
+.navbar a{
+    color: #fff;
+    opacity: 0.7;
+}
+.navbar a:hover{
+    opacity: 1;
+    color: #000000;
+}
+
+.navbar-brand{
+    font-size: 18px;
+}
+
+.nav-item a{
+    font-size: 15px;
+}
+/*navigation ends*/
+
+/*header*/
+
+
+.header{
+    height: 600px;
+    width: 100%;
+    padding: 50px 0 50px;
+    background: url(../images/bg3.jpg)no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.header img{
+    height: 350px;
+    width: 450px;
+    margin: 70px 0 0 40px;
+}
+.header h1{
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 100px;
+    padding-right: 10px;
+    
+    
+}
+.header h1
+.header p
+.header button{
+    margin-top: 20px;
+}
+.header .btn{
+    border-radius: 0px;
+    margin: 200px 399px;
+    opacity: 75%;
+    font-size: 18px;
+}
+
+.header input{
+    font-size: 18px;
+}
+
+.header span{
+    font-size: 18px;
+}
+
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 2rem;
+    }
+}
+
+@media(max-width:768px) {
+    
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 2rem;
+    }
+
+    .header {
+        
+        padding: 30px;
+        height: 850px;
+    }
+    
+    .header img {
+        
+        width: 90%;
+        height: 250px;
+        margin: 20px 0 0 20px;
+    }
+    
+    .header .btn {
+        font-size: 12px;
+        margin-left: 20px;
+    }
+    
+    .header h1 {
+        
+        font-size: 20px;
+    }
+    
+    .header p {
+        
+        font-size: 20px;
+    }
+}
+/*header ends*/
+
+/*service*/
+.services{
+    padding: 80px 0 80px;
+    text-align: center;
+}
+.services h1
+.services h4{
+    color: #d6d6d6;
+    margin: 20px 0 20px;
+}
+.services p{
+    color: #707070;
+    font-size: 15px;
+    padding-bottom: 40px;
+}
+.services i{
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    padding: 25px 20px;
+    border-radius: 50%;
+    background-color: black;
+    color: #fff;
+    transition:  all linear 01s;
+}
+.services i:hover{
+    transform: rotate(360deg);
+    background-color: beige;
+}
+
+@media(max-width:768px){
+    
+    .services{
+        padding: 30px;
+    }
+}
+/*service ends*/
+/*pricing*/
+
+.pricing{
+    padding: 50px 0 80px;
+    text-align: center;
+    background-color: darkgray;
+}
+.pricing h2,
+.pricing p{
+    color: #fff;
+}
+.pricing p{
+    padding-bottom: 40px;
+}
+.pricing .pacakges{
+    padding: 30px;
+    border: 1px solid #ccc;
+    background-color: dimgrey;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.pacakges li{
+    display: block;
+    padding: 2px;
+}
+.pacakges h4, .pacakges h1, .pacakges b{
+    color: beige;
+}
+.pacakges p, .pacakges li{
+    color: #ededed;
+}
+.pacakges button{
+    margin-top: 10px;
+}
+@media(max-width:768px){
+    .pricing{
+        padding: 30px;
+    }
+    .pacakges{
+        width: 90%;
+        margin-left: 18px;
+    }
+}
+/*pricing ends*/
+
+
+/*client*/
+
+.client{
+    padding: 50px 0 50px;
+    background-color: white;
+    text-align: center;
+    color: #fff;
+}
+.client h2{
+    color: black;
+}
+.client p{
+    padding-bottom: 40px;
+    color: black;
+}
+.client img{
+    width: 200px;
+    opacity: 0.6;
+    cursor: no-drop;
+    margin: 40px 0;
+    transition: all 500ms ease-in-out;
+}
+.client img:hover{
+    opacity: 5;
+    border-radius: 20%;
+}
+/*client ends*/
+
+/*Contact*/
+.contact{
+    padding: 50px 0 80px;
+    text-align: center;
+}
+.contact p{
+    padding-bottom: 80px;
+    color: #737373;
+}
+.contact h2{
+    color: cadetblue;
+    margin: 20px 0 20px;
+}
+.contact .input-group{
+    margin-bottom: 25px;
+}
+.contact .form-control{
+    border-radius: 0!important;
+}
+.contact span{
+    border-radius: 0!important;
+}
+.contact .btn{
+    
+    border-radius: 0!important;
+    width: 100%;
+    font-size: 20px;
+    background-color: #b0b0b0;
+    color: #fff;
+    font-weight: bold!important;
+}
+.contact .btn:hover{
+    background-color: cornflowerblue!important;
+    color: #fff!important;
+}
+/*Contact ends*/
+
+/* Modal*/
+
+.modal-header ul li{
+    padding-left: 50px;
+    padding-right: 25px;
+}
+
+.modal-header .col{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #e7e7e7;
+}
+.modal-header .col a.login{
+    padding-left: 77px;
+}
+
+.modal-header .col a.register{
+    padding-left: 66px;
+}
+
+.modal-header .col:hover{
+    background: #e7e7e7;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+.col-form-label{
+    display: block !important;
+    background-position: center center;
+}
+
+.w-100{
+    width: 100% !important;
+}
+
+/*footer*/
+
+.footer{
+    padding: 30px;
+    color: #cccccc;
+    background-color: #222222;
+}
+.footer .social{
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    
+}
+.footer .social:hover{
+    background-color: lime;
+}
+.footer input{
+    height: 40px;
+    width: 160px;
+    padding: 10px;
+    border: none;
+    background-color: #cccccc;
+    color: #000000;
+}
+.footer .btn{
+    padding: 10px 5px 10px;
+    margin: -3px 0 0 7px;
+    border-radius: 0px;
+}
+
+btn:hover, td button{
+    color: #fff !important;
+}
+/*footer ends*/
+
+
